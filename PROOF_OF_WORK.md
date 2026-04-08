@@ -10,9 +10,9 @@ The standard is simple:
 
 ## Status
 
-Current stage: four upstream PRs opened
+Current stage: four upstream PRs and first technical issue opened
 
-The bridge repo now has a visible upstream contribution trail across docs, fixes, and test coverage work.
+The bridge repo now has a visible upstream contribution trail across docs, fixes, test coverage work, and a technical normalization issue drawn from real use.
 
 ## Planned Proof Points
 
@@ -69,11 +69,23 @@ The bridge repo now has a visible upstream contribution trail across docs, fixes
 - summary:
   Adds broad coverage for the general extractor layer, including memory-type extraction, segmentation, prose extraction, sentiment and resolution detection, and confidence filtering behavior.
 
+### MemPalace Issue #295
+
+- title: `Codex JSONL normalization quality and test coverage`
+- link: https://github.com/milla-jovovich/mempalace/issues/295
+- type: technical issue
+- source: real Codex session mining findings
+- summary:
+  Raises a normalization-quality and test-coverage gap for Codex JSONL ingest, based on real session history where direct normalization still produced noisy transcripts for conversation mining.
+- supporting drafts:
+  [upstream/codex-normalization-issue-plan.md](upstream/codex-normalization-issue-plan.md),
+  [upstream/codex-normalization-issue-body.md](upstream/codex-normalization-issue-body.md)
+
 ### Next Planned Contribution
 
 - target: MemPalace upstream
-- type: technical issue and follow-up PR
-- topic: Codex session transcript normalization and import quality
+- type: follow-up PR
+- topic: Codex session transcript normalization fixtures, tests, and parser improvements where proven necessary
 
 ## Bridge Experiments
 
