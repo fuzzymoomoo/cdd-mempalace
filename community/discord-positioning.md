@@ -93,6 +93,59 @@ Use a short answer:
 CDD is the broader workflow or methodology I'm building around structured context, validated execution, and feedback in software delivery. MemPalace fits into that naturally as a local-first memory layer.
 ```
 
+## Channel Strategy
+
+Post in this order:
+
+1. **#general or #introductions first** — one message, use the shorter version
+2. **#contributing** — only if people are actively discussing PRs there
+3. Do not cross-post — one intro, one channel, let people come to you
+
+The goal is a footprint, not a campaign.
+
+## The Codex Issue Angle
+
+Once the Codex normalization issue is open, it adds a different signal to the
+contribution trail: not "I fixed existing things" but "I found a gap from real use
+and brought it back upstream." That is the most credible kind of contribution.
+
+If it comes up in Discord:
+
+```text
+I was mining actual Codex session history and noticed the normalized transcripts
+were noisy enough that retrieval quality suffered. The parser handles one session
+shape well but broader coverage seemed thin. Opened an issue with specific
+observations and offered to contribute fixtures and tests once the desired
+behavior is agreed.
+```
+
+## Follow-Up Playbook
+
+**If they ask about the Windows fix:**
+> "ChromaDB holds file handles past the GC boundary on Windows. The fix is calling
+> `client.close()` before `shutil.rmtree`. Surprised the CI missed it — tests only
+> ran on Ubuntu."
+
+**If they ask about the test PRs:**
+> "palace_graph and general_extractor were both called out in CONTRIBUTING.md as
+> needing coverage. 96 tests total, all green. The functions are well-defined
+> enough to test properly without too much mocking."
+
+**If they ask about the SE memory use case:**
+> "I've been organizing engineering artifacts by project stage — planning context
+> in some rooms, implementation and handoff context in others. Stage-aware
+> retrieval is the key idea: what you need during planning is different from what
+> you need at validation. PR #285 shows the shape of it."
+
+**If they ask about CDD:**
+> "CDD is the methodology behind it — treating context assembly as the primary
+> discipline in software delivery rather than an afterthought. The wing/hall/room
+> model maps almost exactly onto how CDD structures project knowledge. There is a
+> bridge repo at github.com/fuzzymoomoo/cdd-mempalace if you want to see the
+> mapping in detail."
+
+Keep each answer to 2-4 sentences. Do not over-explain.
+
 ## Best Outcome
 
 Success is not hype.
@@ -103,3 +156,4 @@ Success is:
 - people ask follow-up questions
 - you get into real conversation about engineering-memory use cases
 - CDD comes up naturally as the larger frame behind the work
+- one or two people follow the cdd-mempalace link out of genuine curiosity
