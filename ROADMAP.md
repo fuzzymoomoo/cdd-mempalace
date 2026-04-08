@@ -42,11 +42,13 @@ Future work:
 - contribute engineering-focused examples upstream where useful
 - propose import or structure improvements backed by real findings
 - link accepted contributions back into this repository
+- use active contribution momentum to participate in community conversations from a position of visible proof-of-work
 
 Success looks like:
 
 - the bridge repo produces reusable value for the MemPalace ecosystem
 - the relationship is based on contribution, not proximity
+- public community discussion follows real contribution rather than leading it
 
 ## Track 4: Helper Tooling
 

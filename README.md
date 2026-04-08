@@ -81,9 +81,16 @@ The running log for that lives in [PROOF_OF_WORK.md](PROOF_OF_WORK.md).
 
 ## Early Status
 
-Early public integration work.
+Active public integration work.
 
 Right now this repository is part lab, part adapter, and part documentation trail for using structured memory in real software engineering workflows.
+
+Current momentum includes multiple live upstream MemPalace pull requests spanning:
+
+- engineering memory docs and examples
+- Windows cleanup and test reliability fixes
+- graph-layer test coverage
+- extractor-layer test coverage
 
 ## Philosophy
 

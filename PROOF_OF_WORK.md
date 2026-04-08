@@ -10,9 +10,9 @@ The standard is simple:
 
 ## Status
 
-Current stage: first upstream PR opened
+Current stage: four upstream PRs opened
 
-The bridge repo now has a live upstream contribution trail.
+The bridge repo now has a visible upstream contribution trail across docs, fixes, and test coverage work.
 
 ## Planned Proof Points
 
@@ -40,6 +40,35 @@ The bridge repo now has a live upstream contribution trail.
 - validation note:
   Local test execution produced `115 passed, 2 failed`; the failures appeared unrelated to the docs change and looked like Windows file-lock cleanup issues in existing ChromaDB-backed tests.
 
+### MemPalace PR #286
+
+- title: `fix: close ChromaDB clients before cleanup to prevent PermissionError on Windows`
+- link: https://github.com/milla-jovovich/mempalace/pull/286
+- type: bug fix / test reliability pull request
+- source: real Windows test execution findings
+- summary:
+  Fixes Windows cleanup failures caused by open ChromaDB handles, adds explicit client closing in teardown paths, and adds Windows CI coverage for the regression.
+- related issue:
+  https://github.com/milla-jovovich/mempalace/issues/275
+
+### MemPalace PR #289
+
+- title: `test: add full test suite for palace_graph.py (37 tests)`
+- link: https://github.com/milla-jovovich/mempalace/pull/289
+- type: test coverage pull request
+- source: bridge-repo contribution streak
+- summary:
+  Adds broad coverage for palace graph traversal, tunnel detection, graph stats, and fuzzy room matching, while keeping Windows cleanup behavior safe in the test fixtures.
+
+### MemPalace PR #291
+
+- title: `test: add full test suite for general_extractor.py (59 tests)`
+- link: https://github.com/milla-jovovich/mempalace/pull/291
+- type: test coverage pull request
+- source: bridge-repo contribution streak
+- summary:
+  Adds broad coverage for the general extractor layer, including memory-type extraction, segmentation, prose extraction, sentiment and resolution detection, and confidence filtering behavior.
+
 ### Next Planned Contribution
 
 - target: MemPalace upstream
@@ -66,6 +95,19 @@ This section should later capture:
   MemPalace as a structured memory layer for software engineering artifacts such as decisions, incidents, handoffs, and validation notes.
 - where to find it:
   upstream PR #285 and the local source draft at [upstream/software-engineering-memory-example.md](upstream/software-engineering-memory-example.md)
+
+## Community Positioning
+
+The next public step should be contribution-led community participation.
+
+That means:
+
+- mention the work after the PRs exist
+- lead with useful contributions, not brand claims
+- talk about what was contributed and what was learned
+- let CDD enter the conversation as the reason this bridge work exists
+
+See [community/discord-positioning.md](community/discord-positioning.md).
 
 ## Contribution Standard
 
