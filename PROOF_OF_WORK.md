@@ -33,6 +33,13 @@ This section should later capture:
 - short summary of the value contributed
 - whether the finding came from bridge-repo work or real project use
 
+### Next Planned Contribution
+
+- target: MemPalace upstream
+- type: docs/example pull request
+- proposed title: `docs: add software engineering memory example`
+- draft materials: see [upstream/first-pr-plan.md](upstream/first-pr-plan.md), [upstream/software-engineering-memory-example.md](upstream/software-engineering-memory-example.md), and [upstream/first-pr-description.md](upstream/first-pr-description.md)
+
 ## Bridge Experiments
 
 None logged yet.
