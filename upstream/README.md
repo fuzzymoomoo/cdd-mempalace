@@ -14,3 +14,11 @@ The goal is to turn bridge work into visible public value, not leave it trapped 
   Proposed pull request description text.
 - [open-first-pr-workflow.md](open-first-pr-workflow.md)
   Exact fork, branch, commit, and PR-opening workflow for the first MemPalace contribution.
+- [codex-normalization-issue-plan.md](codex-normalization-issue-plan.md)
+  Why the Codex issue should be framed as a quality and coverage gap, not missing support.
+- [codex-normalization-issue-body.md](codex-normalization-issue-body.md)
+  Ready-to-post issue text for the Codex normalization gap.
+- [codex-follow-up-pr-plan.md](codex-follow-up-pr-plan.md)
+  Durable plan for the follow-up PR after issue #295.
+- [codex-follow-up-pr-checklist.md](codex-follow-up-pr-checklist.md)
+  Resume-anytime checklist for the next Codex normalization pull request.

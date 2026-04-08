@@ -86,6 +86,9 @@ The bridge repo now has a visible upstream contribution trail across docs, fixes
 - target: MemPalace upstream
 - type: follow-up PR
 - topic: Codex session transcript normalization fixtures, tests, and parser improvements where proven necessary
+- planning docs:
+  [upstream/codex-follow-up-pr-plan.md](upstream/codex-follow-up-pr-plan.md),
+  [upstream/codex-follow-up-pr-checklist.md](upstream/codex-follow-up-pr-checklist.md)
 
 ## Bridge Experiments
 
