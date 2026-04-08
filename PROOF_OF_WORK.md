@@ -10,9 +10,9 @@ The standard is simple:
 
 ## Status
 
-Current stage: setup
+Current stage: first upstream PR opened
 
-The bridge repo is live locally and the public contribution trail is being prepared.
+The bridge repo now has a live upstream contribution trail.
 
 ## Planned Proof Points
 
@@ -24,21 +24,27 @@ The bridge repo is live locally and the public contribution trail is being prepa
 
 ## Upstream Contributions
 
-None logged yet.
+### MemPalace PR #285
 
-This section should later capture:
-
-- PR title and link
-- issue link
-- short summary of the value contributed
-- whether the finding came from bridge-repo work or real project use
+- title: `docs: add software engineering memory example`
+- link: https://github.com/milla-jovovich/mempalace/pull/285
+- type: docs/example pull request
+- source: bridge-repo work
+- summary:
+  Adds a software-engineering-focused example showing how MemPalace can be used to organize decisions, incidents, handoffs, and stage-aware retrieval in long-running project work.
+- draft materials:
+  [upstream/first-pr-plan.md](upstream/first-pr-plan.md),
+  [upstream/software-engineering-memory-example.md](upstream/software-engineering-memory-example.md),
+  [upstream/first-pr-description.md](upstream/first-pr-description.md),
+  [upstream/open-first-pr-workflow.md](upstream/open-first-pr-workflow.md)
+- validation note:
+  Local test execution produced `115 passed, 2 failed`; the failures appeared unrelated to the docs change and looked like Windows file-lock cleanup issues in existing ChromaDB-backed tests.
 
 ### Next Planned Contribution
 
 - target: MemPalace upstream
-- type: docs/example pull request
-- proposed title: `docs: add software engineering memory example`
-- draft materials: see [upstream/first-pr-plan.md](upstream/first-pr-plan.md), [upstream/software-engineering-memory-example.md](upstream/software-engineering-memory-example.md), and [upstream/first-pr-description.md](upstream/first-pr-description.md)
+- type: technical issue and follow-up PR
+- topic: Codex session transcript normalization and import quality
 
 ## Bridge Experiments
 
@@ -54,13 +60,12 @@ This section should later capture:
 
 ## Example Integrations
 
-None logged yet.
+### Software Engineering Memory Example
 
-This section should later capture:
-
-- example name
-- what it demonstrates
-- where to find the example
+- what it demonstrates:
+  MemPalace as a structured memory layer for software engineering artifacts such as decisions, incidents, handoffs, and validation notes.
+- where to find it:
+  upstream PR #285 and the local source draft at [upstream/software-engineering-memory-example.md](upstream/software-engineering-memory-example.md)
 
 ## Contribution Standard
 
