@@ -12,3 +12,5 @@ The goal is to turn bridge work into visible public value, not leave it trapped 
   Ready-to-paste draft content for a first MemPalace docs/example PR.
 - [first-pr-description.md](first-pr-description.md)
   Proposed pull request description text.
+- [open-first-pr-workflow.md](open-first-pr-workflow.md)
+  Exact fork, branch, commit, and PR-opening workflow for the first MemPalace contribution.
