@@ -10,9 +10,9 @@ The standard is simple:
 
 ## Status
 
-Current stage: five upstream PRs and first technical issue opened
+Current stage: five upstream PRs, one technical issue, and a sixth upstream-ready docs branch prepared from maintainer feedback
 
-The bridge repo now has a visible upstream contribution trail across docs, fixes, test coverage work, and a Codex normalization follow-up PR drawn from real use.
+The bridge repo now has a visible upstream contribution trail across docs, fixes, test coverage work, a Codex normalization follow-up PR drawn from real use, and a maintainer-requested example pack prepared for upstream.
 
 ## Planned Proof Points
 
@@ -100,6 +100,26 @@ The bridge repo now has a visible upstream contribution trail across docs, fixes
   `lint`, `test (3.9)`, `test (3.11)`, `test (3.13)`
 - CI status note:
   required checks were still waiting to report when this record was updated on 2026-04-09
+
+### MemPalace example pack requested in Issue #301
+
+- issue:
+  https://github.com/milla-jovovich/mempalace/issues/301#issuecomment-4215975119
+- type:
+  maintainer-requested docs/example follow-up
+- status:
+  upstream-ready branch prepared on fork
+- branch:
+  https://github.com/fuzzymoomoo/mempalace/tree/docs/cdd-workflow-example
+- compare link:
+  https://github.com/milla-jovovich/mempalace/compare/main...fuzzymoomoo:mempalace:docs/cdd-workflow-example?expand=1
+- summary:
+  Packages a worked `examples/cdd-workflow/` directory with a room layout, decision record, planning context bundle, and handoff capsule format so new users can copy a practical engineering-memory workflow.
+- supporting drafts:
+  [upstream/cdd-workflow-pr-description.md](upstream/cdd-workflow-pr-description.md),
+  [upstream/issue-301-follow-up-comment.md](upstream/issue-301-follow-up-comment.md)
+- validation note:
+  The example pack was mined into a disposable palace locally and retrieval was verified with a room-filtered `postgresql` search against the decision record.
 
 ### Next Planned Contribution
 

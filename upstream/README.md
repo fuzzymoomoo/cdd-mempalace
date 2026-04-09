@@ -24,3 +24,7 @@ The goal is to turn bridge work into visible public value, not leave it trapped 
   Durable plan for the follow-up PR after issue #295.
 - [codex-follow-up-pr-checklist.md](codex-follow-up-pr-checklist.md)
   Resume-anytime checklist for the next Codex normalization pull request.
+- [cdd-workflow-pr-description.md](cdd-workflow-pr-description.md)
+  Proposed upstream PR body for the worked `examples/cdd-workflow/` example pack requested in issue #301.
+- [issue-301-follow-up-comment.md](issue-301-follow-up-comment.md)
+  Ready-to-paste reply for the pinned issue #301 thread with the branch and compare link.
