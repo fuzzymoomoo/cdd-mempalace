@@ -109,15 +109,16 @@ The bridge repo now has a visible upstream contribution trail across docs, fixes
 
 ## Bridge Experiments
 
-None logged yet.
+### Hades Shared-Memory Handoff
 
-This section should later capture:
-
-- experiment name
-- repo or scenario
-- memory structure used
-- retrieval outcome
-- useful lesson
+- scenario:
+  Codex prepared a review handoff, Claude cold-started from MemPalace plus authoritative files, produced the Hades master plan and a Wave 1 implementation handoff, and Codex then reviewed and normalized the durable outputs.
+- artifacts:
+  [examples/hades-shared-memory-handoff.md](examples/hades-shared-memory-handoff.md)
+- retrieval outcome:
+  The handoff flow was strong enough to produce a materially useful master plan without requiring the incoming actor to replay the full chat history.
+- useful lesson:
+  The refresh step has to be explicit. Writing the handoff is not enough; the next cold-start actor only benefits once the new durable artifacts are indexed. That lesson is now captured in the `continuity cycle` term.
 
 ## Example Integrations
 

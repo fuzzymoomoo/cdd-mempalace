@@ -57,3 +57,8 @@ The value is that memory becomes:
 - understandable to both humans and agents
 
 Future examples in this folder should include real bridge workflows, retrieval notes, and links to any upstream findings they produced.
+
+## Additional Examples
+
+- [hades-shared-memory-handoff.md](hades-shared-memory-handoff.md)
+  A real case study showing Codex-to-Claude planning continuity over MemPalace, the resulting Hades master plan, and the operational lessons that turned into the `continuity cycle` term.

@@ -14,6 +14,8 @@ The goal is to turn bridge work into visible public value, not leave it trapped 
   Proposed pull request description text.
 - [open-first-pr-workflow.md](open-first-pr-workflow.md)
   Exact fork, branch, commit, and PR-opening workflow for the first MemPalace contribution.
+- [software-engineering-handoffs-example.md](software-engineering-handoffs-example.md)
+  Generic draft for an upstream example about agent-to-agent or human-to-agent software handoffs over shared memory.
 - [codex-normalization-issue-plan.md](codex-normalization-issue-plan.md)
   Why the Codex issue should be framed as a quality and coverage gap, not missing support.
 - [codex-normalization-issue-body.md](codex-normalization-issue-body.md)
