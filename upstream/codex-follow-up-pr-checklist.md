@@ -47,5 +47,12 @@ Use this when resuming the Codex normalization follow-up work.
 
 ## After Opening The PR
 
+- record the live PR number and link
 - log the PR in `PROOF_OF_WORK.md`
+- track the required CI checks:
+  - `lint`
+  - `test (3.9)`
+  - `test (3.11)`
+  - `test (3.13)`
+- note whether any failures are Codex-related or unrelated repo-wide issues
 - update the bridge repo if maintainer feedback changes the plan

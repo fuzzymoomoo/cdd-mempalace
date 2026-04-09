@@ -10,9 +10,9 @@ The standard is simple:
 
 ## Status
 
-Current stage: four upstream PRs and first technical issue opened
+Current stage: five upstream PRs and first technical issue opened
 
-The bridge repo now has a visible upstream contribution trail across docs, fixes, test coverage work, and a technical normalization issue drawn from real use.
+The bridge repo now has a visible upstream contribution trail across docs, fixes, test coverage work, and a Codex normalization follow-up PR drawn from real use.
 
 ## Planned Proof Points
 
@@ -81,14 +81,31 @@ The bridge repo now has a visible upstream contribution trail across docs, fixes
   [upstream/codex-normalization-issue-plan.md](upstream/codex-normalization-issue-plan.md),
   [upstream/codex-normalization-issue-body.md](upstream/codex-normalization-issue-body.md)
 
-### Next Planned Contribution
+### MemPalace PR #334
 
-- target: MemPalace upstream
-- type: follow-up PR
-- topic: Codex session transcript normalization fixtures, tests, and parser improvements where proven necessary
+- title: `fix: normalize incomplete Codex sessions and add coverage`
+- link: https://github.com/milla-jovovich/mempalace/pull/334
+- type: normalization fix / test coverage pull request
+- source: follow-up work from issue #295
+- summary:
+  Adds Codex JSONL normalization coverage, locks in current behavior around ignored noise and `session_meta`, and fixes the incomplete-session case where real Codex user turns were falling back to raw JSONL.
+- related issue:
+  https://github.com/milla-jovovich/mempalace/issues/295
 - planning docs:
   [upstream/codex-follow-up-pr-plan.md](upstream/codex-follow-up-pr-plan.md),
   [upstream/codex-follow-up-pr-checklist.md](upstream/codex-follow-up-pr-checklist.md)
+- local validation note:
+  `tests/test_normalize.py` passed locally with `7 passed`; the broader run with `tests/test_convo_miner.py` and `tests/test_miner.py` still hit unrelated Windows file-lock cleanup failures.
+- CI checklist:
+  `lint`, `test (3.9)`, `test (3.11)`, `test (3.13)`
+- CI status note:
+  required checks were still waiting to report when this record was updated on 2026-04-09
+
+### Next Planned Contribution
+
+- target: MemPalace upstream
+- type: follow-up activity
+- topic: respond to maintainer feedback and CI results on PR #334, then choose the next Codex-ingest or retrieval-quality improvement
 
 ## Bridge Experiments
 
