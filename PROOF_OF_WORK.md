@@ -120,6 +120,15 @@ The bridge repo now has a visible upstream contribution trail across docs, fixes
 - useful lesson:
   The refresh step has to be explicit. Writing the handoff is not enough; the next cold-start actor only benefits once the new durable artifacts are indexed. That lesson is now captured in the `continuity cycle` term.
 
+### Multi-Agent Continuity Cycle Outline
+
+- scenario:
+  MemPalace issue #358 opened a concrete collaboration path: keep MemPalace as the memory substrate, let HexNest provide orchestration, and frame the joint example around explicit handoff plus cold-start resumption.
+- artifacts:
+  [examples/multi-agent-continuity-cycle-outline.md](examples/multi-agent-continuity-cycle-outline.md)
+- useful lesson:
+  The strongest next step is not a full distributed-memory design. It is a narrow example showing how orchestration and shared memory meet at the handoff boundary.
+
 ## Example Integrations
 
 ### Software Engineering Memory Example
