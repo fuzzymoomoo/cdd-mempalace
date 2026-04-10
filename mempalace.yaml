@@ -1,0 +1,17 @@
+wing: alexandria-platform
+
+rooms:
+  - name: bridge
+    description: Core bridge documents that map CDD concepts onto MemPalace usage, including the main README, mapping model, and roadmap
+
+  - name: proof
+    description: Proof-of-work notes, contribution trails, and public evidence that the bridge work is producing useful upstream value
+
+  - name: examples
+    description: Practical examples, case studies, and continuity-cycle patterns showing how shared memory supports engineering work
+
+  - name: upstream
+    description: Upstream contribution drafts, issue plans, PR descriptions, and maintainer-facing example packaging notes
+
+  - name: community
+    description: Community positioning notes, discussion drafts, and collaboration artifacts around the MemPalace ecosystem
