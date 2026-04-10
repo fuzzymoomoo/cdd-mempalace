@@ -62,5 +62,7 @@ Future examples in this folder should include real bridge workflows, retrieval n
 
 - [hades-shared-memory-handoff.md](hades-shared-memory-handoff.md)
   A real case study showing Codex-to-Claude planning continuity over MemPalace, the resulting Hades master plan, and the operational lessons that turned into the `continuity cycle` term.
+- [hades-four-wave-delivery-experiment.md](hades-four-wave-delivery-experiment.md)
+  A concrete experiment note describing four Hades delivery waves executed in series across Claude and Codex, using shared memory, handoff capsules, and continuity cycles with much less correction churn than earlier iterations.
 - [multi-agent-continuity-cycle-outline.md](multi-agent-continuity-cycle-outline.md)
   A scoped outline for a possible HexNest-plus-MemPalace example showing shared-memory handoff with orchestration.

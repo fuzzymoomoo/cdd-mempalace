@@ -149,6 +149,17 @@ The bridge repo now has a visible upstream contribution trail across docs, fixes
 - useful lesson:
   The strongest next step is not a full distributed-memory design. It is a narrow example showing how orchestration and shared memory meet at the handoff boundary.
 
+### Hades Four-Wave Delivery Experiment
+
+- scenario:
+  Four Hades implementation waves were delivered in series across Claude and Codex, with higher-context planning and lower-cost execution coordinated through MemPalace retrieval, handoff capsules, and explicit continuity cycles.
+- artifacts:
+  [examples/hades-four-wave-delivery-experiment.md](examples/hades-four-wave-delivery-experiment.md)
+- observed result:
+  The run reached Wave 4 before the first manual smoke pass without the usual between-wave correction loop, which was materially better than earlier transcript-only iteration patterns.
+- useful lesson:
+  Shared memory does not replace testing, but it can reduce rediscovery, tighten handoffs, and make mixed-cost multi-agent delivery noticeably more stable.
+
 ## Example Integrations
 
 ### Software Engineering Memory Example
