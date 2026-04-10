@@ -156,9 +156,9 @@ The bridge repo now has a visible upstream contribution trail across docs, fixes
 - artifacts:
   [examples/hades-four-wave-delivery-experiment.md](examples/hades-four-wave-delivery-experiment.md)
 - observed result:
-  The run reached Wave 4 before the first manual smoke pass without the usual between-wave correction loop, which was materially better than earlier transcript-only iteration patterns.
+  The run reached Wave 4 before the first manual smoke pass without the usual between-wave correction loop, and the follow-up Hades product-surface validation came back strong after a bounded fix pass.
 - useful lesson:
-  Shared memory does not replace testing, but it can reduce rediscovery, tighten handoffs, and make mixed-cost multi-agent delivery noticeably more stable.
+  Shared memory does not replace testing, but it can reduce rediscovery, tighten handoffs, and make mixed-cost multi-agent delivery noticeably more stable. The next meaningful refinement is mode-aware shared-memory retrieval in the planning surface.
 
 ## Example Integrations
 
