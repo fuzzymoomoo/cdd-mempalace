@@ -30,3 +30,5 @@ The goal is to turn bridge work into visible public value, not leave it trapped 
   Ready-to-paste reply for the pinned issue #301 thread with the branch and compare link.
 - [personal-operating-system-memory-example.md](personal-operating-system-memory-example.md)
   Upstream-friendly example draft for using MemPalace as a continuity layer in a local-first personal operating system or executive-function support tool.
+- [personal-operating-system-pr-description.md](personal-operating-system-pr-description.md)
+  Ready-to-paste PR body text for the personal operating system / executive-function support example contribution.
