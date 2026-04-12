@@ -66,3 +66,5 @@ Future examples in this folder should include real bridge workflows, retrieval n
   A concrete experiment note describing four Hades delivery waves executed in series across Claude and Codex, using shared memory, handoff capsules, and continuity cycles with much less correction churn than earlier iterations.
 - [multi-agent-continuity-cycle-outline.md](multi-agent-continuity-cycle-outline.md)
   A scoped outline for a possible HexNest-plus-MemPalace example showing shared-memory handoff with orchestration.
+- [chaos-personal-operating-system-memory.md](chaos-personal-operating-system-memory.md)
+  A public-safe case study showing how an ADHD-first local operating system can use MemPalace as an optional continuity and retrieval layer without replacing its core task and capture store.

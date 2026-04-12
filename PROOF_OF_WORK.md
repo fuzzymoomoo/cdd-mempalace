@@ -160,6 +160,16 @@ The bridge repo now has a visible upstream contribution trail across docs, fixes
 - useful lesson:
   Shared memory does not replace testing, but it can reduce rediscovery, tighten handoffs, and make mixed-cost multi-agent delivery noticeably more stable. The next meaningful refinement is mode-aware shared-memory retrieval in the planning surface.
 
+### CHA_OS Personal Operating System Memory
+
+- scenario:
+  CHA_OS was prepared for a public launch as an ADHD-first local operating system, with MemPalace framed as an optional continuity layer rather than the system of record.
+- artifacts:
+  [examples/chaos-personal-operating-system-memory.md](examples/chaos-personal-operating-system-memory.md),
+  [upstream/personal-operating-system-memory-example.md](upstream/personal-operating-system-memory-example.md)
+- useful lesson:
+  The bridge story becomes stronger when MemPalace is shown working beyond software engineering but still within the same core strength: durable, local-first continuity where compressed day-to-day workflows would otherwise lose meaning.
+
 ## Example Integrations
 
 ### Software Engineering Memory Example

@@ -28,3 +28,5 @@ The goal is to turn bridge work into visible public value, not leave it trapped 
   Proposed upstream PR body for the worked `examples/cdd-workflow/` example pack requested in issue #301.
 - [issue-301-follow-up-comment.md](issue-301-follow-up-comment.md)
   Ready-to-paste reply for the pinned issue #301 thread with the branch and compare link.
+- [personal-operating-system-memory-example.md](personal-operating-system-memory-example.md)
+  Upstream-friendly example draft for using MemPalace as a continuity layer in a local-first personal operating system or executive-function support tool.
