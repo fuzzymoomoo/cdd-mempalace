@@ -32,11 +32,8 @@ The bridge repo now has a visible upstream contribution trail across docs, fixes
 - source: bridge-repo work
 - summary:
   Adds a software-engineering-focused example showing how MemPalace can be used to organize decisions, incidents, handoffs, and stage-aware retrieval in long-running project work.
-- draft materials:
-  [upstream/first-pr-plan.md](upstream/first-pr-plan.md),
-  [upstream/software-engineering-memory-example.md](upstream/software-engineering-memory-example.md),
-  [upstream/first-pr-description.md](upstream/first-pr-description.md),
-  [upstream/open-first-pr-workflow.md](upstream/open-first-pr-workflow.md)
+- public artifact:
+  [upstream/software-engineering-memory-example.md](upstream/software-engineering-memory-example.md)
 - validation note:
   Local test execution produced `115 passed, 2 failed`; the failures appeared unrelated to the docs change and looked like Windows file-lock cleanup issues in existing ChromaDB-backed tests.
 
@@ -77,9 +74,6 @@ The bridge repo now has a visible upstream contribution trail across docs, fixes
 - source: real Codex session mining findings
 - summary:
   Raises a normalization-quality and test-coverage gap for Codex JSONL ingest, based on real session history where direct normalization still produced noisy transcripts for conversation mining.
-- supporting drafts:
-  [upstream/codex-normalization-issue-plan.md](upstream/codex-normalization-issue-plan.md),
-  [upstream/codex-normalization-issue-body.md](upstream/codex-normalization-issue-body.md)
 
 ### MemPalace PR #334
 
@@ -91,9 +85,6 @@ The bridge repo now has a visible upstream contribution trail across docs, fixes
   Adds Codex JSONL normalization coverage, locks in current behavior around ignored noise and `session_meta`, and fixes the incomplete-session case where real Codex user turns were falling back to raw JSONL.
 - related issue:
   https://github.com/milla-jovovich/mempalace/issues/295
-- planning docs:
-  [upstream/codex-follow-up-pr-plan.md](upstream/codex-follow-up-pr-plan.md),
-  [upstream/codex-follow-up-pr-checklist.md](upstream/codex-follow-up-pr-checklist.md)
 - local validation note:
   `tests/test_normalize.py` passed locally with `7 passed`; the broader run with `tests/test_convo_miner.py` and `tests/test_miner.py` still hit unrelated Windows file-lock cleanup failures.
 - CI checklist:
@@ -115,9 +106,6 @@ The bridge repo now has a visible upstream contribution trail across docs, fixes
   https://github.com/milla-jovovich/mempalace/compare/main...fuzzymoomoo:mempalace:docs/cdd-workflow-example?expand=1
 - summary:
   Packages a worked `examples/cdd-workflow/` directory with a room layout, decision record, planning context bundle, and handoff capsule format so new users can copy a practical engineering-memory workflow.
-- supporting drafts:
-  [upstream/cdd-workflow-pr-description.md](upstream/cdd-workflow-pr-description.md),
-  [upstream/issue-301-follow-up-comment.md](upstream/issue-301-follow-up-comment.md)
 - validation note:
   The example pack was mined into a disposable palace locally and retrieval was verified with a room-filtered `postgresql` search against the decision record.
 
