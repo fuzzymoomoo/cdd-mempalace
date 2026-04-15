@@ -32,3 +32,5 @@ The goal is to turn bridge work into visible public value, not leave it trapped 
   Upstream-friendly example draft for using MemPalace as a continuity layer in a local-first personal operating system or executive-function support tool.
 - [personal-operating-system-pr-description.md](personal-operating-system-pr-description.md)
   Ready-to-paste PR body text for the personal operating system / executive-function support example contribution.
+- [customer-facing-bot-memory-example.md](customer-facing-bot-memory-example.md)
+  Upstream-friendly example draft for using MemPalace as a continuity layer in a customer-facing bot such as sales, support, service, or onboarding.

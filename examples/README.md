@@ -68,3 +68,5 @@ Future examples in this folder should include real bridge workflows, retrieval n
   A scoped outline for a possible HexNest-plus-MemPalace example showing shared-memory handoff with orchestration.
 - [chaos-personal-operating-system-memory.md](chaos-personal-operating-system-memory.md)
   A public-safe case study showing how an ADHD-first local operating system can use MemPalace as an optional continuity and retrieval layer without replacing its core task and capture store.
+- [customer-facing-bot-memory.md](customer-facing-bot-memory.md)
+  A public-safe case study showing how a sales or support bot can use MemPalace for customer continuity, objection handling, and cleaner human handoff without turning memory into the only runtime store.

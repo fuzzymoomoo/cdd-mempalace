@@ -170,6 +170,16 @@ The bridge repo now has a visible upstream contribution trail across docs, fixes
 - useful lesson:
   The bridge story becomes stronger when MemPalace is shown working beyond software engineering but still within the same core strength: durable, local-first continuity where compressed day-to-day workflows would otherwise lose meaning.
 
+### Customer-Facing Bot Memory
+
+- scenario:
+  A sales bot experiment made it obvious early in testing that customer-centered context plus durable memory changes objection handling, handoff quality, and follow-up continuity, with clear extension into support and service bots.
+- artifacts:
+  [examples/customer-facing-bot-memory.md](examples/customer-facing-bot-memory.md),
+  [upstream/customer-facing-bot-memory-example.md](upstream/customer-facing-bot-memory-example.md)
+- useful lesson:
+  The MemPalace story gets stronger when memory is shown as continuity infrastructure for live customer conversations, not just as retrieval for documents or engineering notes.
+
 ## Example Integrations
 
 ### Software Engineering Memory Example
